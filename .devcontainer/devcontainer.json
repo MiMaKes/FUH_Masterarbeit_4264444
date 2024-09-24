@@ -80,16 +80,16 @@
 					"org",
 					"restructuredtext",
 					"rsweave"
-				]
+				],
+				"workbench.editorAssociations": {
+					"*pdf": "pdf.view"
+				}
 			},
 			"extensions": [
 				"James-Yu.latex-workshop",
 				"eamodio.gitlens",
-				"valentjn.vscode-ltex"
-				// Remove the line below if you do not want Grammarly
-				// "znck.grammarly"
-				// Remove the line below if you do not want Live-Collaboration Feature
-				// "ms-vsliveshare.vsliveshare",
+				"valentjn.vscode-ltex",
+				"mathematic.vscode-pdf"
 			]
 		}
 	}
