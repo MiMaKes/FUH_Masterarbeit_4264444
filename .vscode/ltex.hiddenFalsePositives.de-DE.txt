@@ -1,0 +1,6 @@
+{"rule":"DE_CASE","sentence":"^\\QExposé zur Abschlussarbeit am LG Kooperative Systeme der FernUniversität in Hagen\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QDiese eignen sich aber für den gewünschten Einsatz im Motorsport aus folgenden Gründen nicht: Die Bedienung und Einrichtung ist zu Komplex für das gegebene Arbeitsumfeld im Motorsport Es wäre eine zusätzliche kundenspezifische Weiterentwicklung notwendig Nicht alle benötigten Datenformate werden unterstützt\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QState-of-the-Art-Analyse Wie das Problem des Kalibrierungsmanagements derzeit gehandhabt wird?\\E$"}
+{"rule":"GERMAN_WORD_REPEAT_RULE","sentence":"^\\QEvaluation Evaluation der Ergebnisse anhand einer geeigneten Methodik hinsichtlich ihrer Tauglichkeit für den Einsatz im Motorsport\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QDiese eignen sich aber für den gewünschten Einsatz im Motorsport aus folgenden Gründen nicht: Die Bedienung und Einrichtung ist zu komplex für das gegebene Arbeitsumfeld im Motorsport Es wäre eine zusätzliche kundenspezifische Weiterentwicklung notwendig Nicht alle benötigten Datenformate werden unterstützt\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QState-of-the-Art-Analyse Wie wird das Problem des Kalibrierungsmanagements derzeit gehandhabt?\\E$"}
