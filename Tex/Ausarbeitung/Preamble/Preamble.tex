@@ -17,8 +17,7 @@
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{amsmath, amsthm, amsfonts, amssymb, wasysym} % Zeichen/Zusatzpakete laden
 \usepackage{import}
-
-%von Steffen zugefügt
+\usepackage{scrhack} % Get rid of \float@addtolists warning
 \usepackage{booktabs} % enhance table layout
 \usepackage{float}%tabelle nicht am Anfang einer Seite
 \usepackage{tabularx}
@@ -75,63 +74,63 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 % Konfiguration für C#
 \lstdefinestyle{csharp}{
-    language=[sharp]c,
-    basicstyle=\ttfamily\scriptsize,
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{codeblue},
-    numberstyle=\tiny\color{codelightgreen},
-    stringstyle=\color{codeorange},
-    numbers=left,
-    numberstyle=\tiny,
-    breaklines=true,
-    breakatwhitespace=true,
-    showstringspaces=false,
-    escapechar=|,
-    tabsize=2,
-    captionpos="b"
+  language=[sharp]c,
+  basicstyle=\ttfamily\scriptsize,
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{codeblue},
+  numberstyle=\tiny\color{codelightgreen},
+  stringstyle=\color{codeorange},
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  escapechar=|,
+  tabsize=2,
+  captionpos="b"
 }
 % Konfiguration für C++
 \lstdefinestyle{cpp}{
-    language=C++,
-    basicstyle=\ttfamily\scriptsize,
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{codeblue},
-    numberstyle=\tiny\color{codelightgreen},
-    stringstyle=\color{codeorange},
-    numbers=left,
-    numberstyle=\tiny,
-    breaklines=true,
-    breakatwhitespace=true,
-    showstringspaces=false,
-    escapechar=|,
-    tabsize=2,
-    captionpos="b"
+  language=C++,
+  basicstyle=\ttfamily\scriptsize,
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{codeblue},
+  numberstyle=\tiny\color{codelightgreen},
+  stringstyle=\color{codeorange},
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  escapechar=|,
+  tabsize=2,
+  captionpos="b"
 }
 % Konfiguration für textuelle Dokumention
 \lstdefinelanguage{txtSpec}{
-    morekeywords={actors, precondition, main_flow, alternative_flow, postcondition},
-    morecomment=[l]{//},
-    morecomment=[s]{/*}{*/}, 
-    morestring=[b]",
-    morestring=[b]**
+  morekeywords={actors, precondition, main_flow, alternative_flow, postcondition},
+  morecomment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]",
+  morestring=[b]**
 }
 \lstdefinestyle{txtSpecStyle}{
   language=txtSpec,
   basicstyle=\ttfamily\scriptsize,
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{codeblue},
-    numberstyle=\tiny\color{codelightgreen},
-    stringstyle=\color{codeorange},
-    numbers=none,
-    breaklines=true,
-    breakatwhitespace=true,
-    showstringspaces=false,
-    escapechar=|,
-    tabsize=2,
-    captionpos="b"
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{codeblue},
+  numberstyle=\tiny\color{codelightgreen},
+  stringstyle=\color{codeorange},
+  numbers=none,
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  escapechar=|,
+  tabsize=2,
+  captionpos="b"
 }
 \def\ContinueLineNumber{\lstset{firstnumber=last}}
 \def\StartLineAt#1{\lstset{firstnumber=#1}}
