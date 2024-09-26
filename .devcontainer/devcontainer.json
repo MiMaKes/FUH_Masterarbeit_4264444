@@ -83,7 +83,8 @@
 				],
 				"workbench.editorAssociations": {
 					"*pdf": "pdf.view"
-				}
+				},
+				"latex-workshop.formatting.latex": "latexindent"
 			},
 			"extensions": [
 				"James-Yu.latex-workshop",
