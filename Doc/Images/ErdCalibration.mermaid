@@ -1,0 +1,47 @@
+---
+title: Software- and Calibration-Update of a VCU
+---
+erDiagram
+    Software-Release {
+         Type Data
+         Executable pgv-File
+         Base-Calibration dtv-File
+    }
+    VCU {
+        Type Hardware
+        Executable pgv-File
+        Base-Calibration dtv-File
+        Calibration-Updates m-Files
+        Updated-Calibration dtv-File
+    }
+    Calibration-Updates {
+        Type Data
+        Format m-Files
+    }
+    Software-Developer {
+        Type Actor
+        Uses Matlab-Simulink
+        Uses System-Monitor
+        Uses Gitlab
+        Uses DevOps
+    }
+    Performance-Engineer {
+        Type Actor
+        Uses Shared-Drive
+        Uses Excel-Calibration-Tool
+    }
+    System-Engineer {
+        Type Actor
+        Uses Shared-Drive
+        Uses System-Monitor
+    }
+
+    Software-Developer }|..|{ Software-Release : "creates"
+
+    Performance-Engineer }|..|{ Software-Release : "receives"
+    Performance-Engineer }|..o{ Calibration-Updates: "creates"
+
+    System-Engineer ||..|{ Software-Release : "receives"
+    System-Engineer ||..|{ VCU : "Upload<br/>Software<br/>Release"
+    System-Engineer ||..|{ VCU : "Upload<br/>Calibration<br/>Updates"
+    System-Engineer ||..o{ Calibration-Updates : "receives"

@@ -90,7 +90,10 @@
 				"James-Yu.latex-workshop",
 				"eamodio.gitlens",
 				"valentjn.vscode-ltex",
-				"mathematic.vscode-pdf"
+				"mathematic.vscode-pdf",
+				"bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+				"tomoyukim.vscode-mermaid-editor",
+				"jock.svg"
 			]
 		}
 	}
